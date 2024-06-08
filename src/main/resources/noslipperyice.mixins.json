@@ -1,9 +1,10 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "whirlpool.honeycombedice.mixin",
+  "package": "whirlpool.noslipperyice.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "IceBlockMixin"
   ],
   "client": [
   ],

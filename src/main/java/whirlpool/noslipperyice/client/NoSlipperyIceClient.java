@@ -1,8 +1,8 @@
-package whirlpool.honeycombedice.client;
+package whirlpool.noslipperyice.client;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class HoneyCombedIceClient implements ClientModInitializer {
+public class NoSlipperyIceClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

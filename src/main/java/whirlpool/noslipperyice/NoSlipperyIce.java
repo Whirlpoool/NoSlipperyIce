@@ -1,8 +1,8 @@
-package whirlpool.honeycombedice;
+package whirlpool.noslipperyice;
 
 import net.fabricmc.api.ModInitializer;
 
-public class HoneyCombedIce implements ModInitializer {
+public class NoSlipperyIce implements ModInitializer {
     @Override
     public void onInitialize() {
 

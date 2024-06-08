@@ -2,25 +2,29 @@
   "schemaVersion": 1,
   "id": "honeycombedice",
   "version": "${version}",
-
   "name": "HoneyCombedIce",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/Leo Bulatewicz/HoneyCombedIce"
+  },
   "license": "All-Rights-Reserved",
-  "icon": "assets/honeycombedice/icon.png",
-
+  "icon": "assets/noslipperyice/icon.png",
   "environment": "*",
-  "entrypoints": {},
-
-      "mixins": [
-        "honeycombedice.mixins.json"
-      ],
-
+  "entrypoints": {
+    "client": [
+      "whirlpool.noslipperyice.client.NoSlipperyIceClient"
+    ],
+    "main": [
+      "whirlpool.noslipperyice.NoSlipperyIce"
+    ]
+  },
+  "mixins": [
+    "noslipperyice.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
